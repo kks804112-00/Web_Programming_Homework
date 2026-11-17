@@ -2,7 +2,10 @@
     display: grid;
     grid-template-columns: 200px minmax(0, 1fr) 200px;
     min-height: 80vh;
+    background-color: gray;
+    color: white;
 }
+
 nav {
     width: 200px;
     background-color: lightgray;
@@ -18,6 +21,8 @@ nav a {
 
 #header {
     text-align: center;
+    background-color: black;
+    color: white;
 }
 
 #contact {
@@ -41,4 +46,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    font-weight: bolder;
+  
 }
