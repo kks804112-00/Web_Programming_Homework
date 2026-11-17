@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    width: 200px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#header {
+    text-align: center;
+}
+
+#contact {
+    width: 300px;
+
+    input, textarea {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+    }
+
+    textarea {
+        height: 120px;
+    }
+}
