@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js" defer></script>
+</head>
+<body>
+<div id="header">
+    <h1>TJ노래방 인기200곡 랜덤 추천</h1>
+</div>
+
+<div class="random">
+
+</div>
+
+<nav>
+    <button onclick="showHome()">홈</button>
+    <br>
+    <button onclick="showSongs()">곡 목록</button>
+    <br>
+    <button onclick="showContact()">버그제보</button>
+</nav>
+<main>
+    <section id="home">
+        <h2>노래방 랜덤 추천</h2>
+        <button>랜덤 추천</button>
+    </section>
+
+    <section id="songList" hidden>
+        <h2>전체 곡 목록</h2>
+        <ul>
+            <li>노래 제목 1 - 가수 A</li>
+            <li>노래 제목 2 - 가수 B</li>
+            <li>노래 제목 3 - 가수 C</li>
+        </ul>
+    </section>
+
+    <section id="contact" hidden>
+        <h2>문의하기</h2>
+      <label>이름:</label>
+        <input type="text" placeholder="이름을 입력하세요"><br>
+        <label>이메일:</label>
+        <input type="mail" placeholder="이메일을 입력하세요">
+        <br><br>
+    
+    <input type="submit" value="문의하기">
+    </section>
+</main>
+
+<div id="info">
+    <p>버튼을 눌러서 랜덤곡을 뽑으세요.</p>
+</div>
+
+<div id="contact">
+
+</div>
+
+</body>
+</html>
