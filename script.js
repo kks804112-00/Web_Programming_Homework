@@ -16,7 +16,7 @@ function showContact() {
     document.getElementById("contact").hidden = false;
 }
 
-const songs = [
+let songs = [
     "노래 제목 1 - 가수 A",
     "노래 제목 2 - 가수 B",
     "노래 제목 3 - 가수 C"
@@ -27,3 +27,4 @@ document.getElementById("random").onclick = function() {
 
     document.getElementById("result").textContent = songs[randomIndex];
 };
+
